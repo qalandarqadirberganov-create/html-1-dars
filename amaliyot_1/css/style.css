@@ -1,0 +1,134 @@
+/* =========================================================
+   Shaxsiy Blog — 1-amaliy ish
+   Palitra: #2c3e50 (to'q ko'k), #e67e22 (to'q sariq/olovrang),
+   #f8f9fa (och fon), white (oq)
+   ========================================================= */
+
+:root {
+  --asosiy: #2c3e50;
+  --aksent: #e67e22;
+  --fon: #f8f9fa;
+  --oq: #ffffff;
+  --kulrang: #dfe6e9;
+  --asosiy-och: rgba(44, 62, 80, 0.08);
+}
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--asosiy);
+  background-color: var(--fon);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  color: var(--oq);
+  background-color: var(--asosiy);
+  text-align: center;
+  padding: 25px 15px;
+}
+
+h1 {
+  font-size: 2.4rem;
+  margin-bottom: 5px;
+}
+
+h2, h3 {
+  color: var(--aksent);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 12px;
+}
+
+nav a {
+  color: var(--oq);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+p {
+  text-align: justify;
+}
+
+/* Izoh qoldirish formasi stili */
+form {
+  background-color: var(--oq);
+  border: 1px solid var(--kulrang);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+form label {
+  font-weight: 700;
+  display: block;
+  margin-top: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea,
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+form button {
+  margin-top: 15px;
+  background-color: var(--aksent);
+  color: var(--oq);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+form button:hover {
+  opacity: 0.9;
+}
+
+blockquote {
+  border-left: 4px solid var(--aksent);
+  padding-left: 15px;
+  font-style: italic;
+  background-color: var(--asosiy-och);
+  margin: 15px 0;
+  padding: 10px 15px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: var(--asosiy);
+  color: var(--oq);
+  margin-top: 40px;
+}
+
+footer a {
+  color: var(--oq);
+}

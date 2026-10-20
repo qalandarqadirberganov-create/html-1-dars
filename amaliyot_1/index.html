@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shaxsiy Blog — Sardor</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="top">
+
+  <header>
+    <h1>Mening Shaxsiy Blogim</h1>
+    <p>Dasturlash, texnologiyalar va kundalik tajribalar</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Bosh sahifa</a></li>
+        <li><a href="batafsil.html">Men haqimda</a></li>
+        <li><a href="#izoh-bolimi">Izoh qoldirish</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Blog maqolasi -->
+    <article>
+      <section>
+        <h2>Dasturlashni o'rganishdagi dastlabki qadamlarim</h2>
+        <p>
+          Veb-dasturlash olamiga kirib kelish har doim qiziqarli va biroz murakkab bo'ladi. 
+          Eng muhimi &mdash; nazariyani o'qibgina qolmay, uni <strong>amaliyotda mustahkamlash</strong>. 
+          <mark>Har kuni yozilgan 10 qator kod ham katta natijaga poydevor bo'ladi.</mark>
+        </p>
+        <blockquote>
+          Kodni shunchaki nusxalamang, har bir satr qanday ishlayotganini tahlil qiling.
+        </blockquote>
+      </section>
+
+      <section>
+        <h3>Mening o'rganish rejam</h3>
+        <ol>
+          <li>HTML teglari va semantik tuzilma</li>
+          <li>CSS uslublari va stillash</li>
+          <li>Formalar bilan ishlash va ma'lumot qabul qilish</li>
+        </ol>
+      </section>
+    </article>
+
+    <!-- Izoh qoldirish formasi -->
+    <section id="izoh-bolimi">
+      <h2>Mavzu bo'yicha fikr bildiring</h2>
+      <form action="#" method="post">
+        
+        <label for="ism">Ismingiz *</label>
+        <input type="text" id="ism" name="ism" placeholder="Masalan: Sardor" required>
+
+        <label for="email">Elektron pochta manzilingiz *</label>
+        <input type="email" id="email" name="email" placeholder="namuna@gmail.com" required>
+
+        <label for="mavzu">Qaysi yo'nalish bo'yicha fikr bildirasiz?</label>
+        <select id="mavzu" name="mavzu">
+          <option value="dasturlash">Dasturlash</option>
+          <option value="talim">Ta'lim jarayoni</option>
+          <option value="boshqa">Boshqa fikr-mulohazalar</option>
+        </select>
+
+        <label for="izoh">Izohingiz *</label>
+        <textarea id="izoh" name="izoh" rows="5" placeholder="Fikringizni shu yerga yozing..." required></textarea>
+
+        <button type="submit">Izohni yuborish</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p><a href="#top">Yuqoriga qaytish</a></p>
+    <p>&copy; 2026 Shaxsiy Blog. Barcha huquqlar himoyalangan.</p>
+  </footer>
+
+</body>
+</html>
